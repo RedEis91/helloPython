@@ -15,6 +15,7 @@ print("5 % 2 = ", 5%2)
 print("5 ** 2 = ", 5**2)
 print("5 // 2 = ", 5//2)
 
-# This code demonstrates order of operations in Python
-print("1 + 2 - 3 * 2 =", 1 + 2 - 3 * 2)
-print("(1 + 2 - 3) * 2 =", (1 + 2 - 3) * 2)
+quote = "\"Always remember you are unique...\n" + "...just like everyone else\""
+
+
+print("%s %s" % ('I like the quote:\n', quote))
